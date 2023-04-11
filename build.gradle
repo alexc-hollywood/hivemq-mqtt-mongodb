@@ -1,0 +1,4 @@
+dependencies {
+    implementation 'com.hivemq:hivemq-extension-sdk:4.6.2'
+    implementation 'org.mongodb:mongodb-driver-sync:4.4.0'
+}

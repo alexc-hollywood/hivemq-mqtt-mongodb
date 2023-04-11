@@ -1,0 +1,18 @@
+<extension>
+    <id>hivemq-mongodb-ext</id>
+    <version>1.0.0</version>
+    <name>HiveMQ MongoDB Extension</name>
+    <author>AC</author>
+    <priority>100</priority>
+    <startLevel>1000</startLevel>
+    <config>
+        <mongoDbConfig>
+            <connectionString>mongodb://username:password@your-mongodb-host:port/database</connectionString>
+            <collectionName>mqtt_messages</collectionName>
+            <writeConcern>1</writeConcern>
+            <maxBatchSize>1000</maxBatchSize>
+            <batchQueueSize>10000</batchQueueSize>
+            <batchInterval>500</batchInterval>
+        </mongoDbConfig>
+    </config>
+</extension>
